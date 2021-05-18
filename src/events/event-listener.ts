@@ -17,7 +17,7 @@ type EventListenerOptions = {
     /**
      * If true, log all received messages from iFrame and their event.data.
      */
-    verbose: boolean
+    verbose?: boolean
 }
 
 /**
