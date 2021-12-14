@@ -13,6 +13,7 @@
   "module": "dist/redux-iframe.esm.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
+    "prepublish": "rollup -c",
     "build": "rollup -c",
     "test": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} nyc mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
